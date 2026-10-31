@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "generatedAt": "2026-10-31T04:58:28.853Z",
+    "seed": "20261022"
+  },
+  "anomalies": [
+    {
+      "issue_type": "missing_category",
+      "id": "SKU-999999",
+      "entity": "Product"
+    },
+    {
+      "issue_type": "purchase_before_session",
+      "id": "ORD-2026-999999",
+      "entity": "Order"
+    },
+    {
+      "issue_type": "test_leakage",
+      "id": "EVT-SES-2026-999999-999",
+      "entity": "PageView"
+    },
+    {
+      "issue_type": "discontinued_recommendation",
+      "id": "REC-999999",
+      "entity": "Recommendation"
+    }
+  ]
+}
